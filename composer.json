@@ -7,9 +7,16 @@
     "issues": "https://github.com/mirocow/yii2-crawler",
     "source": "https://github.com/mirocow/yii2-crawler"
   },
+  "keywords": [
+      "mirocow",
+      "crawler",
+      "http",
+      "link",
+      "website"
+  ],  
   "minimum-stability": "dev",
   "require": {
-    "php": "^7.1",
+    "php": ">=7.0",
     "yiisoft/yii2": ">=2.0.0",
     "spatie/crawler": "dev-master"
   },
@@ -17,5 +24,11 @@
     "psr-4": {
       "mirocow\\crawler\\": "src"
     }
-  }
+  },
+  "repositories": [
+      {
+          "type": "git",
+          "url": "https://github.com/Mirocow/crawler.git"
+      }
+  ]  
 }
