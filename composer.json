@@ -24,11 +24,5 @@
     "psr-4": {
       "mirocow\\crawler\\": "src"
     }
-  },
-  "repositories": [
-      {
-          "type": "git",
-          "url": "https://github.com/Mirocow/crawler.git"
-      }
-  ]  
+  }  
 }
