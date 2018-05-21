@@ -1,0 +1,21 @@
+{
+  "name": "mirocow/yii2-crawler",
+  "description": "Yii2 http crawler",
+  "type": "yii2-extension",
+  "license": "GPL-v3",
+  "support": {
+    "issues": "https://github.com/mirocow/yii2-crawler",
+    "source": "https://github.com/mirocow/yii2-crawler"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1",
+    "yiisoft/yii2": ">=2.0.0",
+    "spatie/crawler": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "mirocow\\crawler\\": "src"
+    }
+  }
+}
